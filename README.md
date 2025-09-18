@@ -12,6 +12,19 @@ TRT Infer Fastest is a high-performance machine learning inference project utili
 - 🔧 Flexible preprocessing and engine building
 - 🖼️ Visualization of inference results
 
+
+ ## 📊 Benchmark
+
+All benchmarks were conducted on an **NVIDIA RTX 4090 GPU** using the provided conversion and inference scripts.  
+The results below are measured **end-to-end latency**, including preprocessing, inference, and post-processing.  
+
+| Model Type         | Scenario                  | Latency (ms) | FPS    |
+|--------------------|--------------------------|--------------|--------|
+| Segmentation (Medium Model) | 2–3 masks detected       | 7.22 ms      | 138.48 |
+| Segmentation (Medium Model) | >10 masks detected       | 12.67 ms     | 78.92  |    
+
+
+
 ## 📋 Prerequisites
 
 - NVIDIA GPU with CUDA support
@@ -116,3 +129,4 @@ The scripts automatically measure and report:
 ---
 
 **Note**: Performance and results may vary based on hardware and specific model configurations.
+
