@@ -1,0 +1,24 @@
+----------------------------------------------------------------
+Step                                 Avg (ms)     Min (ms)     Max (ms)
+----------------------------------------------------------------
+Preprocessing                            0.42         0.39         0.59
+H2D Input                                0.10         0.10         0.14
+GPU Inference (wall)                     5.02         4.65         7.72
+D2H Dets/Labels                          0.02         0.01         0.04
+Filter & Selection                       0.03         0.02         0.06
+Mask Binarize (CPU)                      0.00         0.00         0.00
+Mask Prep (CPU)                          0.09         0.07         0.13
+Mask GPU Kernels (thresh+ROI)            0.08         0.06         0.84
+D2H Masks                                0.01         0.01         0.02
+Mask ROI Resize (CPU)                    0.00         0.00         0.00
+Mask Paste (CPU)                         0.02         0.02         0.04
+Viz Blend                                0.06         0.06         0.12
+Viz Draw                                 0.02         0.02         0.04
+----------------------------------------------------------------
+TOTAL                                    7.22         6.72        10.17
+Accounted (sum of rows)                  5.88         5.45         8.74
+Unaccounted (jitter)                     1.34         1.25         1.60
+================================================================
+Pure GPU Inference (events) — Avg: 5.02 ms, Min: 4.64 ms, Max: 7.69 ms
+
+🚀 Estimated FPS (TOTAL): 138.48
