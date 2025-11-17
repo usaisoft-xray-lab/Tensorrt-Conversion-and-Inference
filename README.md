@@ -29,7 +29,7 @@ The results below are measured **end-to-end latency**, including preprocessing, 
 
 - NVIDIA GPU with CUDA support
 - Python 3.8+
-- TensorRT 8.6
+- TensorRT 8.6 (install from nvidia then run the pip wheel for the correct version)
 - OpenCV
 - NumPy
 - CUDA Toolkit 11.8
