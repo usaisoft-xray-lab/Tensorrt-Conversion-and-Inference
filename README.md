@@ -29,10 +29,10 @@ The results below are measured **end-to-end latency**, including preprocessing, 
 
 - NVIDIA GPU with CUDA support
 - Python 3.8+
-- TensorRT
+- TensorRT 8.6
 - OpenCV
 - NumPy
-- CUDA Toolkit
+- CUDA Toolkit 11.8
 
 ## 🛠️ Installation
 
