@@ -1,6 +1,5 @@
 numpy>=1.21.0
 opencv-python>=4.5.5
-tensorrt==8.6.0    #(important rest can vary)
 pycuda>=2021.1
 onnx>=1.10.0
 onnxruntime>=1.10.0
