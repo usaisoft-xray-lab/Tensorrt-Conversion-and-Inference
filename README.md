@@ -29,7 +29,7 @@ The results below are measured **end-to-end latency**, including preprocessing, 
 
 - NVIDIA GPU with CUDA support
 - Python 3.8+
-- TensorRT 8.6 (install from nvidia then run the pip wheel for the correct version)
+- TensorRT 8.6 (also test with tensorRT 10.14) (install from nvidia then run the pip wheel for the correct version)
 - OpenCV
 - NumPy
 - CUDA Toolkit 11.8
@@ -40,12 +40,13 @@ The results below are measured **end-to-end latency**, including preprocessing, 
 1. Clone the repository:
 ```bash
 git clone https://github.com/your-username/trt_infer_fastest.git
-cd trt_infer_fastest
+cd src
 ```
 
 2. Install dependencies:
 ```bash
-pip install -r requirements.txt   
+pip install numba
+pip install opencv-python   
 ```   
 use mmdeploy2 conda env on the workstation
 
